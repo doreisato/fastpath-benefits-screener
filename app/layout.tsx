@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "FastPath Benefits Screener",
-  description: "Quickly screen your eligibility for public benefits.",
+  title: "FastPath Benefits Screener — Free Benefits Pre-Screen",
+  description:
+    "Free, plain-language pre-screen for SNAP, Medicaid, WIC, and LIHEAP. No signup required.",
+  keywords: ["benefits calculator", "SNAP eligibility", "food stamps", "WIC", "Medicaid", "government benefits"],
 };
 
 export default function RootLayout({
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#0A0A0A] text-white min-h-screen antialiased flex flex-col`}>
+      <body className="antialiased bg-[#0A0A0A] text-white min-h-screen">
         {children}
       </body>
     </html>
