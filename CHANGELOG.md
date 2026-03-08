@@ -1,1 +1,1 @@
-- 2026-03-08 (Loop): Replaced number input with text input to allow comma-separated currency values for Income. Removed emojis from benefits data to strictly follow the monochrome design system.
+- 2026-03-08 (Launch): Built FastPath Benefits Screener MVP for non-technical households with ZIP + household + income flow, deterministic SNAP/WIC/Medicaid/LIHEAP estimates, agency next-step links, legal-safe disclaimer, dark monochrome IM style, and Infinite Machines footer.
